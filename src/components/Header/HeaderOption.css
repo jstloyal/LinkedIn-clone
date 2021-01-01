@@ -7,6 +7,12 @@
   cursor: pointer;
 }
 
+.headerOption_icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+}
+
 .headerOption_title {
   font-size: 12px;
   font-weight: 400;
