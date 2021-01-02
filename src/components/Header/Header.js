@@ -35,7 +35,7 @@ function Header() {
         <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notification" />
         <HeaderOption
-          avatar="https://res.cloudinary.com/jstloyalty/image/upload/v1599144254/myPortfolio/cifoo6ujcsuxkphe1m6w.jpg"
+          avatar={true}
           title="me"
           onClick={logoutOfApp}
         />

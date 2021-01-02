@@ -23,6 +23,7 @@ function Login() {
           profileUrl: userAuth.user.photoURL,
         }))
       })
+      .catch(error => alert(error));
   };
 
   const register = () => {
