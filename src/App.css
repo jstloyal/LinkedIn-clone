@@ -7,4 +7,5 @@
 
 .app_body {
   display: flex;
+  width: 90%;
 }
