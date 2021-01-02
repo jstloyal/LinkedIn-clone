@@ -23,7 +23,7 @@ function Sidebar() {
           alt="cover pics" 
         />
         <Avatar src={user.photoUrl} className="sidebar_avatar">
-          {user.displayName[0]}
+          {user.email[0]}
         </Avatar>
         <h2>{user.displayName}</h2>
         <h4>{user.email}</h4>
