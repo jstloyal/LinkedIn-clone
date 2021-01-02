@@ -23,6 +23,11 @@
   font-size: 15px;
 }
 
+.post_buttons {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
 .post_body {
   overflow-wrap: anywhere;
 }
